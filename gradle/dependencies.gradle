@@ -17,17 +17,17 @@ dependencies {
         // Bookshelf is a general purpose library mod. It provides many helpers
         // and frameworks for other mods to work with. There are also in game
         // debug commands under /bookshelf.
-        deobfCompile('bookshelf', 'net.darkhax.bookshelf', 'Bookshelf-Forge-'+project.ext.mcVersion, '16.+')
+        deobfCompile('bookshelf', 'net.darkhax.bookshelf', 'Bookshelf-Forge-'+project.ext.mcVersion, '13.+')
         
         // CraftTweaker is a scripting framework for Minecraft. Mods are 
         // encouraged to add support for their new recipe types, events, and 
         // other game mechanics.
-        deobfCompile('crafttweaker', 'com.blamejared.crafttweaker', 'CraftTweaker-forge-'+project.ext.mcVersion, '10.+')
+        deobfCompile('crafttweaker', 'com.blamejared.crafttweaker', 'CraftTweaker-forge-'+project.ext.mcVersion, '9.+')
         
         // GameStages is a framework for modpack progression frameworks. Mods
         // can use the API to check which flags a player has enabled. This mod
         // has a hard requirement on Bookshelf.        
-        deobfCompile('gamestages', 'net.darkhax.gamestages', 'GameStages-Forge-'+project.ext.mcVersion, '11.+')
+        deobfCompile('gamestages', 'net.darkhax.gamestages', 'GameStages-Forge-'+project.ext.mcVersion, '8.+')
     }
 }
 
